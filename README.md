@@ -11,11 +11,21 @@ The code accepts any user-supplied image as input - it will be resized by `Rando
 
 The implementation details can be found in [`Jupyter Notebook`](dog_app.ipynb)
 
+IT stack:
+* Python 3.7.6
+* PyTorch 1.4.0
+
+
 Examples:
 
 If a dog is detected - returns its breed
+
 ![Labrador](images/Labrador.png)
+
 If a human is detected - returns that it is a human and his/her possible breed :)
+
 ![Mr. Trump](images/Trump.png)
+
 Neither dog nor human - indicates an error in the photo title
+
 ![BigMac](images/BigMac.png)
